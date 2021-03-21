@@ -1,0 +1,49 @@
+[{
+    "id": 1,
+    "vehicleName": "BIKE",
+    "vehicleImage": "https://images.newindianexpress.com/uploads/user/imagelibrary/2020/2/5/w1200X800/Himalayanbike.jpg",
+    "vehicleSitType1": "2",
+    "vehicleSitType2": "4",
+    "vehicleSitType3": "6",
+    "vehicleSitPrice1": 50,
+    "vehicleSitPrice2": 100 ,
+    "vehicleSitPrice3":150,
+    "from":"Ashulia",
+    "to":"Savar"
+  }, {
+    "id": 2,
+    "vehicleName": "TRAIN",
+    "vehicleImage": "https://static.toiimg.com/thumb/62983984/Train-coaches-and-special-trains-can-now-be-booked-online-through-IRCTC.jpg?width=1200&height=900",
+    "vehicleSitType1": "2",
+    "vehicleSitType2": "4",
+    "vehicleSitType3": "6",
+    "vehicleSitPrice1": 50,
+    "vehicleSitPrice2": 100 ,
+    "vehicleSitPrice3":150,
+    "from":"Dhaka",
+    "to":"Khulna"
+  }, {
+    "id": 2,
+    "vehicleName": "CAR",
+    "vehicleImage": "https://specials-images.forbesimg.com/imageserve/5d3703e2f1176b00089761a6/960x0.jpg?cropX1=836&cropX2=5396&cropY1=799&cropY2=3364",
+    "vehicleSitType1": "2",
+    "vehicleSitType2": "4",
+    "vehicleSitType3": "6",
+    "vehicleSitPrice1": 50,
+    "vehicleSitPrice2": 100 ,
+    "vehicleSitPrice3":150,
+    "from":"Ashulia",
+    "to":"Savar"
+  }, {
+    "id": 4,
+    "vehicleName": "BUS",
+    "vehicleImage": "https://assetsds.cdnedge.bluemix.net/sites/default/files/styles/very_big_1/public/feature/images/http_cdn.cnn_.com_cnnnext_dam_assets_200826183306-adventures-overlandimage-from-ios.jpg?itok=McotSUS2",
+    "vehicleSitType1": "2",
+    "vehicleSitType2": "4",
+    "vehicleSitType3": "6",
+    "vehicleSitPrice1": 50,
+    "vehicleSitPrice2": 100 ,
+    "vehicleSitPrice3":150,
+    "from":"Dhaka",
+    "to":"Khulna"
+  }]
