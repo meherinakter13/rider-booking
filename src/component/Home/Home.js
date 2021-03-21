@@ -12,7 +12,7 @@ const Home = () => {
         console.log(fakeData);
     },[])
     return (
-        <div style={{ backgroundImage: `url(${image})`}}className="header">
+        <div>
             <div className="row m-0">
                 {
                    vehicles.map(vehicle =><div className="col-lg-3 col-md-6 col-sm-12 "><Vehicles vehicle={vehicle} key ={vehicle.vehicleName}></Vehicles></div>)

@@ -11,12 +11,12 @@ const Vehicles = (props) => {
     return (
         <div onClick={() => handleDestination(vehicleName,id)} className="container m-auto" style={{cursor:'pointer'}}>
             <Container>
-            <Card style={{ width: '16rem', height: '25rem'}}>
-                <Card.Img className="w-100 h-75"variant="top" src={vehicleImage} />
+            <Card style={{ width: '16rem', height: '22rem'}}>
+                <Card.Img className="w-100 h-75 "variant="top" src={vehicleImage} />
                 <Card.Body>
-                    <Card.Title>{vehicleName}</Card.Title>
+                    <Card.Title className="text-center">{ vehicleName}</Card.Title>
                 </Card.Body>
-                <Button onClick={() => handleDestination(vehicleName,id)}className="mb-3" variant="primary">Take a ride</Button>
+                <Button onClick={() => handleDestination(vehicleName,id)}className="mb-1" variant="info">Take a ride</Button>
                 </Card>
             </Container>
         </div>

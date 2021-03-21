@@ -27,9 +27,9 @@ const Header = () => {
             });
     }
     return (
-        <div >
+        <div  >
             <Navbar bg="light" expand="lg">
-            <Navbar.Brand href="/home"><h2>Capricorn Riders</h2></Navbar.Brand>
+            <Navbar.Brand href="/home"><h2 className="text-info">Capricorn Riders</h2></Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse className="justify-content-end ">
                 <Link to="/home" className="nav-link">Home</Link>

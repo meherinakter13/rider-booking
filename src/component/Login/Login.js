@@ -128,7 +128,7 @@ const [loggedInUser, setLoggedInUser] = useContext(UserContext);
     return (
         <div className="container">
             <div className="col-md-12">
-                <div className="card bg-info shadow text-white mx-auto mt-5" style={{ width: '30rem', height: '32rem' }}>
+                <div className="card bg-info shadow text-white mx-auto mt-5" style={{ width: '25rem', height: '30rem' }}>
                     <form className="p-3" onSubmit={handleSubmit}>
                         <h2 className="border-bottom" >{newUser ? 'Create An Account' : 'Login'}</h2>
                         <label className="p-2">{newUser ? 'Name:' : 'Username or Email'}</label>
@@ -141,10 +141,6 @@ const [loggedInUser, setLoggedInUser] = useContext(UserContext);
                         <input type="text" className="form-control" name="email" placeholder="Your Email" onBlur={handleBlur} required />
                         <label className="p-2">Password</label>
                         <input type="password" className="form-control" name="password" placeholder="password" onBlur={handleBlur} />
-                        <label className="p-2">{newUser ? 'Confirm Password' : ''}</label>
-                        {
-                            newUser && <input type="password" className="form-control" id="" placeholder="password"></input>
-                        }
                         <button className="btn btn-danger mt-3 w-100">{newUser ? 'Create An Account' : 'Login'}</button>
                         <p className="text-center pt-2 "> {newUser ? 'Already have an account?' : 'Do not have an account?'} <button className=" bg-info text-white" onClick={()=> setNewUser(!newUser)} name="newUser"> {newUser ? 'Login' : 'Create An Account'}</button></p>
                     </form>

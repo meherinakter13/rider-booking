@@ -1,7 +1,11 @@
- /* .header{
-    border: 4px solid black;
-    background-position: center center;
-    background-size: cover;
-    height: 700px;
-    
-}  */
+body{
+    background-image:url("https://images.all-free-download.com/images/graphiclarge/colorful_city_168270.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    height: 100vh;
+}
+
+.card{
+    margin-top: 100px;
+   
+}
